@@ -2,7 +2,7 @@
 from app import db
 
 class Book(db.Model):
-    __tablename__ = 'books'
+    __tablename__ = 'book'
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String())
